@@ -2,9 +2,11 @@ import Navbar from "./Navbar";
 import Footer from './Footer';
 const Layout = ({ children }) => {
   return (
-    <div>
+    <div className="landingPage">
       <Navbar />
-      {children}
+      <div className="mainPage">
+        {children}
+      </div>
       <Footer />
 
     </div>
