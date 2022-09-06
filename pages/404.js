@@ -10,7 +10,7 @@ const NotFound = () => {
     setTimeout(() => {
       router.push('/')
     }, 3000)
-  }, [])
+  })
   return ( 
     <div>
       <div>Oooops...</div>

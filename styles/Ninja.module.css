@@ -1,0 +1,8 @@
+.singleItem {
+  padding: 8px;
+  width: 50%;
+  border: 8px solid #ededed;
+}
+.singleItem:hover {
+  border-left: 8px solid #006eff;
+}
